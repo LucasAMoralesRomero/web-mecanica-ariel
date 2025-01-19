@@ -46,7 +46,7 @@ body {
 }
 
 .hero {
-    background: url('taller.jpg') no-repeat center center/cover;
+    background: url('https://ik.imagekit.io/mh5qqcqag/ariel-principal.webp') no-repeat center center/cover;
     color: #fff;
     height: 100vh;
     display: flex;
