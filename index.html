@@ -64,10 +64,10 @@
 
     <section id="contacto" class="contact">
         <h2>Contacto</h2>
-        <form>
-            <input type="text" placeholder="Nombre" required>
-            <input type="tel" placeholder="Teléfono" required>
-            <textarea placeholder="Mensaje" required></textarea>
+        <form id="contactForm">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="tel" name="telefono" placeholder="Teléfono" required>
+            <textarea name="mensaje" placeholder="Mensaje" required></textarea>
             <button type="submit">Enviar</button>
         </form>
         <p>O contáctanos directamente:</p>
@@ -79,5 +79,8 @@
         <p>© 2025 Mecánica Ariel. Todos los derechos reservados.</p>
         <p>Dirección: Belén de Escobar, Buenos Aires</p>
     </footer>
+
+    <script src="./js/form-handler.js"></script>
+
 </body>
 </html>
