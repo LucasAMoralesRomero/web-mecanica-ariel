@@ -2,7 +2,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
 
     const formData = new FormData(this);
-    fetch('https://script.google.com/macros/s/AKfycby1iH5yW9IiQVLzjJAquZpyh9My8vP1QQgFsa8m7nGGMrRLvdq35iDBvR5X7taROiQmGQ/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbwWafzniUPSOsx0TU1QYbvpCOLq4AgvoWSSFxa1JmX5vEc2ntV_SKDIYV3BMFBkiopxVQ/exec', {
         method: "POST",
         body: JSON.stringify({
             nombre: formData.get('nombre'),
