@@ -15,7 +15,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     }).then(response => response.json())
       .then(data => {
           if (data.success) {
-              alert('Mensaje enviado, gracias por cotactarse con nosotros, a la brevedad lo contactaremos.');
+              alert('Mensaje enviado, gracias por contactarse con nosotros, a la brevedad lo contactaremos.');
               document.getElementById('contactForm').reset();
           } else {
               alert('Error: ' + data.message);
@@ -24,3 +24,4 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
           alert('Error al enviar el mensaje, por favor intente nuevamente.');
           console.error("Error de conexión:", error);
       });
+});
