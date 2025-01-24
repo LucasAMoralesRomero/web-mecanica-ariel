@@ -64,12 +64,12 @@
 
     <section id="contacto" class="contact">
         <h2>Contacto</h2>
-        <form id="contactForm">
-            <input type="text" name="nombre" placeholder="Nombre" required>
-            <input type="tel" name="telefono" placeholder="Teléfono" required>
-            <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+        <form id="contactForm" method="POST" action="https://script.google.com/macros/s/AKfycbwvODEmnZr4FMPuFTVpDLce2HopmX_WLgH_D6Zrmu2dbX4vg7Xe_tnfD-fNmzgNaQlK/exec">
+            <input name="Nombre" type="text" placeholder="Nombre" required>
+            <input name="Teléfono" type="tel" placeholder="Teléfono" required>
+            <textarea name="Mensaje" placeholder="Mensaje" required></textarea>
             <button type="submit">Enviar</button>
-        </form>
+          </form>
         <p>O contáctanos directamente:</p>
         <p>Tel: <a href="tel: 348-15-456-3332">+54 9 348 456-3332</a></p>
         <a href="https://wa.me/5493484563332" class="btn">WhatsApp</a>
@@ -79,8 +79,6 @@
         <p>© 2025 Mecánica Ariel. Todos los derechos reservados.</p>
         <p>Dirección: Belén de Escobar, Buenos Aires</p>
     </footer>
-
-    <script src="./js/form-handler.js"></script>
 
 </body>
 </html>
